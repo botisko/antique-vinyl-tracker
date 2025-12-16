@@ -1,0 +1,27 @@
+# Set the build language to Python
+language: python
+
+# Set the python version to 3.13
+python:
+- '3.13'
+
+# Install dependencies
+install:
+- python -m pip install pytest requests
+- python -m pip install -r requirements.txt
+
+# Run tests
+#script:
+#- python -m pytest tests/test_utils.py -v
+
+# Install the codecov pip dependency
+install:
+- pip install pytest-cov
+
+# Run the pytest coverage
+script:
+- pytest --cov=./
+
+# Upload to codecov.io
+script:
+- bash <(curl -s https://codecov.io/bash)
