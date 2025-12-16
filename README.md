@@ -1,5 +1,5 @@
 # Antique Vinyl Tracker
-[![Build Status](https://travis-ci.org/botisko/package-tracking.svg?branch=master)](https://travis-ci.org/botisko/package-tracking) [![codecov](https://codecov.io/gh/botisko/antique-vinyl-tracker/graph/badge.svg?token=9FS1CZACNP)](https://codecov.io/gh/botisko/antique-vinyl-tracker)
+[![Build Status](https://travis-ci.org/botisko/antique-vinyl-tracker.svg?branch=main)](https://travis-ci.org/botisko/antique-vinyl-tracker) [![codecov](https://codecov.io/gh/botisko/antique-vinyl-tracker/graph/badge.svg?token=9FS1CZACNP)](https://codecov.io/gh/botisko/antique-vinyl-tracker)
 
 Flask web app to monitor changes in antique shop vinyl (LP) inventories. Compares daily text files and shows what's new in stock vs. out of stock.
 Features
